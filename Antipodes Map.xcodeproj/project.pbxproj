@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10CD111A2A5AB22200D87A21 /* Antipodes_MapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CD11192A5AB22200D87A21 /* Antipodes_MapApp.swift */; };
+		10CD111C2A5AB22200D87A21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CD111B2A5AB22200D87A21 /* ContentView.swift */; };
+		10CD111E2A5AB22300D87A21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10CD111D2A5AB22300D87A21 /* Assets.xcassets */; };
+		10CD11212A5AB22300D87A21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10CD11202A5AB22300D87A21 /* Preview Assets.xcassets */; };
+		10CD112B2A5AB22300D87A21 /* Antipodes_MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CD112A2A5AB22300D87A21 /* Antipodes_MapTests.swift */; };
+		10CD11352A5AB22300D87A21 /* Antipodes_MapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CD11342A5AB22300D87A21 /* Antipodes_MapUITests.swift */; };
+		10CD11372A5AB22300D87A21 /* Antipodes_MapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CD11362A5AB22300D87A21 /* Antipodes_MapUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10CD11272A5AB22300D87A21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10CD110E2A5AB22200D87A21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10CD11152A5AB22200D87A21;
+			remoteInfo = "Antipodes Map";
+		};
+		10CD11312A5AB22300D87A21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10CD110E2A5AB22200D87A21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10CD11152A5AB22200D87A21;
+			remoteInfo = "Antipodes Map";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10CD11162A5AB22200D87A21 /* Antipodes Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Antipodes Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10CD11192A5AB22200D87A21 /* Antipodes_MapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Antipodes_MapApp.swift; sourceTree = "<group>"; };
+		10CD111B2A5AB22200D87A21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		10CD111D2A5AB22300D87A21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10CD11202A5AB22300D87A21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		10CD11262A5AB22300D87A21 /* Antipodes MapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Antipodes MapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10CD112A2A5AB22300D87A21 /* Antipodes_MapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Antipodes_MapTests.swift; sourceTree = "<group>"; };
+		10CD11302A5AB22300D87A21 /* Antipodes MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Antipodes MapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10CD11342A5AB22300D87A21 /* Antipodes_MapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Antipodes_MapUITests.swift; sourceTree = "<group>"; };
+		10CD11362A5AB22300D87A21 /* Antipodes_MapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Antipodes_MapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10CD11132A5AB22200D87A21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CD11232A5AB22300D87A21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CD112D2A5AB22300D87A21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10CD110D2A5AB22200D87A21 = {
+			isa = PBXGroup;
+			children = (
+				10CD11182A5AB22200D87A21 /* Antipodes Map */,
+				10CD11292A5AB22300D87A21 /* Antipodes MapTests */,
+				10CD11332A5AB22300D87A21 /* Antipodes MapUITests */,
+				10CD11172A5AB22200D87A21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10CD11172A5AB22200D87A21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10CD11162A5AB22200D87A21 /* Antipodes Map.app */,
+				10CD11262A5AB22300D87A21 /* Antipodes MapTests.xctest */,
+				10CD11302A5AB22300D87A21 /* Antipodes MapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10CD11182A5AB22200D87A21 /* Antipodes Map */ = {
+			isa = PBXGroup;
+			children = (
+				10CD11192A5AB22200D87A21 /* Antipodes_MapApp.swift */,
+				10CD111B2A5AB22200D87A21 /* ContentView.swift */,
+				10CD111D2A5AB22300D87A21 /* Assets.xcassets */,
+				10CD111F2A5AB22300D87A21 /* Preview Content */,
+			);
+			path = "Antipodes Map";
+			sourceTree = "<group>";
+		};
+		10CD111F2A5AB22300D87A21 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				10CD11202A5AB22300D87A21 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		10CD11292A5AB22300D87A21 /* Antipodes MapTests */ = {
+			isa = PBXGroup;
+			children = (
+				10CD112A2A5AB22300D87A21 /* Antipodes_MapTests.swift */,
+			);
+			path = "Antipodes MapTests";
+			sourceTree = "<group>";
+		};
+		10CD11332A5AB22300D87A21 /* Antipodes MapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10CD11342A5AB22300D87A21 /* Antipodes_MapUITests.swift */,
+				10CD11362A5AB22300D87A21 /* Antipodes_MapUITestsLaunchTests.swift */,
+			);
+			path = "Antipodes MapUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10CD11152A5AB22200D87A21 /* Antipodes Map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10CD113A2A5AB22300D87A21 /* Build configuration list for PBXNativeTarget "Antipodes Map" */;
+			buildPhases = (
+				10CD11122A5AB22200D87A21 /* Sources */,
+				10CD11132A5AB22200D87A21 /* Frameworks */,
+				10CD11142A5AB22200D87A21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Antipodes Map";
+			productName = "Antipodes Map";
+			productReference = 10CD11162A5AB22200D87A21 /* Antipodes Map.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10CD11252A5AB22300D87A21 /* Antipodes MapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10CD113D2A5AB22300D87A21 /* Build configuration list for PBXNativeTarget "Antipodes MapTests" */;
+			buildPhases = (
+				10CD11222A5AB22300D87A21 /* Sources */,
+				10CD11232A5AB22300D87A21 /* Frameworks */,
+				10CD11242A5AB22300D87A21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10CD11282A5AB22300D87A21 /* PBXTargetDependency */,
+			);
+			name = "Antipodes MapTests";
+			productName = "Antipodes MapTests";
+			productReference = 10CD11262A5AB22300D87A21 /* Antipodes MapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10CD112F2A5AB22300D87A21 /* Antipodes MapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10CD11402A5AB22300D87A21 /* Build configuration list for PBXNativeTarget "Antipodes MapUITests" */;
+			buildPhases = (
+				10CD112C2A5AB22300D87A21 /* Sources */,
+				10CD112D2A5AB22300D87A21 /* Frameworks */,
+				10CD112E2A5AB22300D87A21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10CD11322A5AB22300D87A21 /* PBXTargetDependency */,
+			);
+			name = "Antipodes MapUITests";
+			productName = "Antipodes MapUITests";
+			productReference = 10CD11302A5AB22300D87A21 /* Antipodes MapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10CD110E2A5AB22200D87A21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					10CD11152A5AB22200D87A21 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					10CD11252A5AB22300D87A21 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 10CD11152A5AB22200D87A21;
+					};
+					10CD112F2A5AB22300D87A21 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 10CD11152A5AB22200D87A21;
+					};
+				};
+			};
+			buildConfigurationList = 10CD11112A5AB22200D87A21 /* Build configuration list for PBXProject "Antipodes Map" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10CD110D2A5AB22200D87A21;
+			productRefGroup = 10CD11172A5AB22200D87A21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10CD11152A5AB22200D87A21 /* Antipodes Map */,
+				10CD11252A5AB22300D87A21 /* Antipodes MapTests */,
+				10CD112F2A5AB22300D87A21 /* Antipodes MapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10CD11142A5AB22200D87A21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CD11212A5AB22300D87A21 /* Preview Assets.xcassets in Resources */,
+				10CD111E2A5AB22300D87A21 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CD11242A5AB22300D87A21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CD112E2A5AB22300D87A21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10CD11122A5AB22200D87A21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CD111C2A5AB22200D87A21 /* ContentView.swift in Sources */,
+				10CD111A2A5AB22200D87A21 /* Antipodes_MapApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CD11222A5AB22300D87A21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CD112B2A5AB22300D87A21 /* Antipodes_MapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CD112C2A5AB22300D87A21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CD11352A5AB22300D87A21 /* Antipodes_MapUITests.swift in Sources */,
+				10CD11372A5AB22300D87A21 /* Antipodes_MapUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10CD11282A5AB22300D87A21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10CD11152A5AB22200D87A21 /* Antipodes Map */;
+			targetProxy = 10CD11272A5AB22300D87A21 /* PBXContainerItemProxy */;
+		};
+		10CD11322A5AB22300D87A21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10CD11152A5AB22200D87A21 /* Antipodes Map */;
+			targetProxy = 10CD11312A5AB22300D87A21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10CD11382A5AB22300D87A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10CD11392A5AB22300D87A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10CD113B2A5AB22300D87A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Antipodes Map/Preview Content\"";
+				DEVELOPMENT_TEAM = 6232MX4759;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "robertwiebe.Antipodes-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10CD113C2A5AB22300D87A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Antipodes Map/Preview Content\"";
+				DEVELOPMENT_TEAM = 6232MX4759;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "robertwiebe.Antipodes-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10CD113E2A5AB22300D87A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6232MX4759;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "robertwiebe.Antipodes-MapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Antipodes Map.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Antipodes Map";
+			};
+			name = Debug;
+		};
+		10CD113F2A5AB22300D87A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6232MX4759;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "robertwiebe.Antipodes-MapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Antipodes Map.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Antipodes Map";
+			};
+			name = Release;
+		};
+		10CD11412A5AB22300D87A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6232MX4759;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "robertwiebe.Antipodes-MapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Antipodes Map";
+			};
+			name = Debug;
+		};
+		10CD11422A5AB22300D87A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6232MX4759;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "robertwiebe.Antipodes-MapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Antipodes Map";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10CD11112A5AB22200D87A21 /* Build configuration list for PBXProject "Antipodes Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CD11382A5AB22300D87A21 /* Debug */,
+				10CD11392A5AB22300D87A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10CD113A2A5AB22300D87A21 /* Build configuration list for PBXNativeTarget "Antipodes Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CD113B2A5AB22300D87A21 /* Debug */,
+				10CD113C2A5AB22300D87A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10CD113D2A5AB22300D87A21 /* Build configuration list for PBXNativeTarget "Antipodes MapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CD113E2A5AB22300D87A21 /* Debug */,
+				10CD113F2A5AB22300D87A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10CD11402A5AB22300D87A21 /* Build configuration list for PBXNativeTarget "Antipodes MapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CD11412A5AB22300D87A21 /* Debug */,
+				10CD11422A5AB22300D87A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10CD110E2A5AB22200D87A21 /* Project object */;
+}
